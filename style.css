@@ -645,13 +645,13 @@ form .btn input:hover{
         margin-top: 80px;
     }
     .home-section .text .hello{
-        font-size: 30px;
+        font-size: 15px;
     }
     .home-section .text .name{
-        font-size: 60px;
+        font-size: 30px;
     }
     .home-section .text .job{
-        font-size: 40px;
+        font-size: 30px;
     }
     .home-section .text .button{
         margin-top: 20px;
@@ -663,7 +663,7 @@ form .btn input:hover{
         padding: 20px 50px;
         border: none;
         border-radius: 10px;
-        font-size: 25px;
+        font-size: 15px;
         font-weight: 500;
         color: #132238;
         transition: all 0.3s ease-out;
@@ -677,11 +677,11 @@ form .btn input:hover{
         grid-column: span 10;
         grid-row: span 2;
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
     }
     .home-section .image img{
-        width: 800px;
+        width: 400px;
     }
     /* about-section styling */
     .about-section{
@@ -766,12 +766,19 @@ form .btn input:hover{
         /* margin-left: 60px; */
     }
     .skill-section .header h1{
-        font-size: 40px;
+        font-size: 30px;
     }
     .skill-section .about-my-skill{
         grid-column: span 10;    
-        font-size: 20px;
+        /* font-size: 10px; */
         /* margin: 0 100px; */
+    }
+    .skill-section .about-my-skill h2{
+        font-size: 20px;
+    }
+    .skill-section .about-my-skill p{
+        font-size: 15px;
+        line-height: 25px;
     }
     .skill-section .container-progress-bar{
         grid-column: span 10;
@@ -782,6 +789,13 @@ form .btn input:hover{
         background: #EBF0F6;
         border-radius: 7px; 
         /* margin: 0 100px; */
+    }
+    .skill-section .container-progress-bar .skill-box{
+        width: 100%;
+        margin: 25px 0;
+    }
+    .skill-box .title{
+        font-size: 20px;
     }
 } 
 /* .Services-section .box-container .box .topic::after{
