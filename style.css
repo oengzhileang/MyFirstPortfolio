@@ -797,6 +797,14 @@ form .btn input:hover{
     .skill-box .title{
         font-size: 20px;
     }
+    .skill-box .skill-bar{
+        width: 100%;
+        height: 15px;
+        margin-top: 20px;
+        border-radius: 10px;
+        background: rgb(0,0,0,0.1);
+    }
+    
 } 
 /* .Services-section .box-container .box .topic::after{
     content: '';
