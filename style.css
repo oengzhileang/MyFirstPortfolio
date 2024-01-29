@@ -804,6 +804,18 @@ form .btn input:hover{
         border-radius: 10px;
         background: rgb(0,0,0,0.1);
     }
+    .Services-section .header{
+        grid-column: span 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        /* margin-left: 60px; */
+    }
+    .Services-section .header h1{
+        font-size: 30px;
+    }
+    
     
 } 
 /* .Services-section .box-container .box .topic::after{
