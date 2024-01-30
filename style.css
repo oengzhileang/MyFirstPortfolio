@@ -815,7 +815,27 @@ form .btn input:hover{
     .Services-section .header h1{
         font-size: 30px;
     }
-    
+    .Services-section .box-container{
+        grid-column: span 9;
+        grid-row: span 4;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .Services-section .box-container .box{
+        background: #EBF0F6;
+        text-align: center;
+        padding: 20px 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+    }  
+    .Services-section .box-container .box .elipe{
+        position: relative;
+        top: 30px;
+    }
+    .Services-section .box-container .box .topic{
+        margin-top: 50px;
+    }
     
 } 
 /* .Services-section .box-container .box .topic::after{
