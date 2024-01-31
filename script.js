@@ -47,7 +47,7 @@ window.onscroll = function() {
 //Responsive Navigation Menu JS Code
 let menuIcon = document.querySelector("#menu-icon");
 
-let navbar = document.querySelector(".nav-bar .menu");
+let navbar = document.querySelector(".menu");
 
 menuIcon.onclick = () => {
   menuIcon.classList.toggle('bx-x');

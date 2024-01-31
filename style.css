@@ -50,6 +50,8 @@ body{
 /* nav-bar styling */
 nav{
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     z-index: 998;
     transition: all 0.3s ease;
@@ -59,29 +61,19 @@ nav{
     font-size: 42px;    
     color: #aa0000;
     display: none;
-    margin-right: 100px;
+    /* margin-right: 100px; */
     /* margin-left: 300px; */
 }
 nav.sticky{
     background: #132238;
 }
 nav .nav-bar{
-    width: 100%;
     display: flex;
+    /* background-color: red; */
     justify-content: space-between;
     align-items: center;
-    margin: auto;
-    /* background: #EBF0F6; */
-    /* display: grid;
-    grid-template-columns: repeat(8, 1fr); */
-    padding: 30px 0;
+    padding: 2em 6em;
     transition: all 0.3s ease-out;
-    /* margin: 0 100px; */
-    /* margin-right: 100px; */
-}
-.nav-bar .logo{
-     /* grid-column: span 3;  */
-    margin-left: 100px; 
 }
 .nav-bar .logo a{
     color: #132238;
@@ -94,12 +86,7 @@ nav.sticky .nav-bar .logo a{
     color: #EBF0F6;
 }
 .nav-bar .menu{
-    grid-column: span 5;
     display: flex;
-    position: relative;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 100px;
 }
 .nav-bar .menu li{
     list-style: none;
@@ -180,12 +167,10 @@ nav.sticky .menu li a{
     cursor: pointer;
 }
 .home-section .image{
-    /* width: 100%; */
     grid-column: span 5;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /* margin-right: 100px; */
 }
 .home-section .image img{
     width: 800px;
@@ -196,12 +181,12 @@ nav.sticky .menu li a{
     top: 100px;
     margin: 0 100px;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(5,1fr);
     height: 800px;
 }
 .about-section .header{
-    grid-column: span 8;
+    grid-column: span 10;
     grid-row: span 1.5;
     display: flex;
     justify-content: center;
@@ -212,7 +197,7 @@ nav.sticky .menu li a{
     border-bottom: 3px solid #132238;
 }
 .about-section .image{
-    grid-column: span 3;
+    grid-column: span 4;
     grid-row: span 3;
     /* margin:0 80px; */
 }
@@ -224,7 +209,7 @@ nav.sticky .menu li a{
     border: 1px solid black;
 }
 .about-section .greeting{
-    grid-column: span 5;
+    grid-column: span 6;
     grid-row: span 1.5;
     display: flex;
     flex-direction: column;
