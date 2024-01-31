@@ -230,28 +230,28 @@ nav.sticky .menu li a{
     flex-direction: column;
     /* align-items: flex-start; */
     justify-content: center;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 .about-section .greeting .hello{
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 20px;
     letter-spacing: 2px;
-    margin-left: 60px;
+    /* margin-left: 60px; */
 }
 .about-section .greeting >p{
     font-size: 20px;
     font-weight: 500;
     line-height: 35px;
     /* letter-spacing: 2px; */
-    margin-left: 60px;
+    /* margin-left: 60px; */
 }
 .about-section .button{
     grid-column: span 3;
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    margin-left: 110px;
+    /* margin-left: 110px; */
 
 }
 .about-section .button .btn{
@@ -682,7 +682,7 @@ form .btn input:hover{
         align-items: center;
     }
     .home-section .image img{
-        width: 400px;
+        width: 500px;
     }
     /* about-section styling */
     .about-section{
@@ -709,7 +709,7 @@ form .btn input:hover{
     .about-section .image{
         grid-column: span 10;
         grid-row: span 5;
-        margin: 0px 80px;
+        /* margin: 0px 80px; */
     }
     .about-section .image img{
         width: 300px;
@@ -718,7 +718,7 @@ form .btn input:hover{
         object-fit: cover;
         border-radius: 10px;
         border: 1px solid black;
-        margin-left: 40px;
+        /* margin-left: 40px; */
     }
     .about-section .greeting{
         grid-column: span 10;
@@ -733,7 +733,7 @@ form .btn input:hover{
         font-weight: 600;
         margin-bottom: 20px;
         letter-spacing: 2px;
-        margin-left: 60px;
+        /* margin-left: 60px; */
     } 
     .about-section .button{
         grid-column: span 10;
@@ -888,32 +888,10 @@ form .btn input:hover{
         align-items: center;
     }
     .home-section .image img{
-        width: 400px;
+        width: 500px;
     }
     /* about-section styling */
-    .about-section{
-        position: relative;
-        top: 100px;
-        /* margin: 0 100px; */
-        display: grid;
-        grid-template-columns: repeat(10, 1fr);
-        grid-template-rows: repeat(5,1fr);
-        height: 800px;
-        margin-bottom: 50px;
-    }
-    .about-section .header{
-        grid-column: span 10;
-        grid-row: span 1.5;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 50px;
-    }
-    .about-section .header h1{
-        font-size: 40px;
-    }
-    .about-section .image{
-        grid-column: span 10;
+    
 }
 /* .Services-section .box-container .box .topic::after{
     content: '';
