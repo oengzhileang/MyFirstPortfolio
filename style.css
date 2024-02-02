@@ -119,9 +119,8 @@ nav.sticky .menu li a {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   position: relative;
-  /* width: 100%; */
   top: 100px;
-  margin: 50px 100px;
+  margin: 120px 100px;
   height: 900px;
 }
 .home-section .text {
@@ -489,7 +488,7 @@ nav.sticky .menu li a {
 .Contact-section .left-section .email {
   font-size: 30px;
   font-weight: 600;
-  margin: 40px 60px;
+  margin: 20px 0px;
 }
 .Contact-section .left-section .email a {
   color: #132238;
@@ -815,7 +814,7 @@ form .btn input:hover {
     font-size: 20px;
   }
   .Contact-section .media-icon {
-    font-size: 30px;
+    font-size: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -824,7 +823,7 @@ form .btn input:hover {
   .Contact-section .right-section {
     grid-column: span 10;
     width: 100%;
-    height: 500px;
+    height: 400px;
     background: #ebf0f6;
     border-radius: 10px;
     position: relative;
@@ -875,7 +874,6 @@ form .btn input:hover {
   }
   .home-section .image {
     grid-column: span 10;
-    grid-row: span 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -884,6 +882,9 @@ form .btn input:hover {
     width: 300px;
   }
   /* about-section styling */
+  .about-section {
+    height: 700px;
+  }
   .about-section .image {
     grid-row: span 1;
     margin-bottom: 20px;
@@ -919,6 +920,9 @@ form .btn input:hover {
   .about-section .button a .btn {
     font-size: 15px;
   }
+  .skill-section {
+    height: 900px;
+  }
   .Services-section .box-container {
     grid-column: span 10;
     grid-row: span 4;
@@ -934,8 +938,43 @@ form .btn input:hover {
     border-radius: 10px;
     /* margin-bottom: 20px; */
   }
+  .Services-section .box-container .box .elipe {
+    position: relative;
+    top: 30px;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+  }
+  .Services-section .box-container .box .topic {
+    font-size: 20px;
+  }
   .Contact-section {
     margin-top: 50px;
+  }
+  .Contact-section .right-section form .inputBox input {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 10px;
+    outline: none;
+    background: #ebf0f6;
+  }
+  .Contact-section .right-section .text-box textarea {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 10px;
+    color: #132238;
+    height: 150px;
+  }
+  .Contact-section .right-section form .btn input {
+    background: #ebf0f6;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #132238;
+    transition: all 0.3s ease-out;
   }
 }
 /* .Services-section .box-container .box .topic::after{
