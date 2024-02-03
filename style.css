@@ -119,10 +119,10 @@ nav.sticky .menu li a {
 .home-section {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  display: flex;
-  align-items: flex-end;
+  /* position: relative;
+  top: 120px; */
   margin: 0px 100px;
-  height: 800px;
+  height: 900px;
 }
 .home-section .text {
   grid-column: span 5;
@@ -620,7 +620,9 @@ form .btn input:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: flex-start; */
+    align-items: flex-start;
+    position: relative;
+    top: 100px;
   }
   .home-section .text .hello {
     font-size: 15px;
