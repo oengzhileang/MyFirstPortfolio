@@ -52,6 +52,7 @@ body {
 /* nav-bar styling */
 nav {
   position: fixed;
+  display: block;
   top: 0;
   left: 0;
   width: 100%;
@@ -118,10 +119,10 @@ nav.sticky .menu li a {
 .home-section {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  position: relative;
-  top: 120px;
-  margin: 30px 100px;
-  height: 900px;
+  display: flex;
+  align-items: flex-end;
+  margin: 0px 100px;
+  height: 800px;
 }
 .home-section .text {
   grid-column: span 5;
@@ -129,7 +130,6 @@ nav.sticky .menu li a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  /* margin-left: 80px; */
 }
 .home-section .text .hello {
   font-size: 30px;
