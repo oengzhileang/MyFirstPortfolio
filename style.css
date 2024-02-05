@@ -12,6 +12,9 @@
 body {
   background: #ffffff;
 }
+.container {
+  overflow: hidden;
+}
 /* scroll-watcher styling */
 .scroll-watcher {
   border-radius: 10px;
@@ -937,6 +940,9 @@ form .btn input:hover {
   }
   .about-section .button a .btn {
     font-size: 15px;
+  }
+  .skill-section {
+    width: 100%;
   }
   .skill-box .title {
     font-size: 15px;
