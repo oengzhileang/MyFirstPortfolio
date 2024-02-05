@@ -46,9 +46,6 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #132238;
 }
-.container {
-  overflow: hidden;
-}
 /* nav-bar styling */
 nav {
   position: fixed;
