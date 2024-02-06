@@ -64,8 +64,6 @@ nav {
   font-size: 42px;
   color: #aa0000;
   display: none;
-  /* margin-right: 100px; */
-  /* margin-left: 300px; */
 }
 nav.sticky {
   background: #132238;
@@ -174,7 +172,7 @@ nav.sticky .menu li a {
   align-items: center;
 }
 .home-section .image img {
-  width: 800px;
+  width: 600px;
 }
 /* about-section styling */
 .about-section {
@@ -588,32 +586,39 @@ form .btn input:hover {
   }
   #menu-icon {
     display: block;
+    z-index: 1;
   }
-  nav .nav-bar .menu {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: 100%;
-    text-align: center;
-    border: 5px solid #132238;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    padding: 1rem 3%;
-    background-color: #ebf0f6;
+  .nav-bar .menu {
     display: none;
   }
-  .nav-bar.active .menu {
+  .menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 300px;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 2rem 3%;
+    background: #ebf0f6;
+    display: none;
+  }
+  .menu li a {
+    margin-top: 50px;
+  }
+  .menu.active {
     display: block;
   }
-  nav .nav-bar .menu li a {
+  .menu a {
     display: block;
     color: #132238;
-    font-size: 2rem;
-    margin: 3rem 0;
-    /* margin: 10px 0; */
+    font-size: 1rem;
+    margin: 1rem 0;
   }
-  .nav-bar .menu a:hover {
-    border-bottom: 3px solid #132238;
+  nav.sticky .menu li a {
+    color: #132238;
   }
   .home-section .text {
     grid-column: span 10;
