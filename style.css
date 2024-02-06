@@ -935,11 +935,12 @@ form .btn input:hover {
   }
   .Contact-section .right-section {
     grid-column: span 10;
-    width: 100%;
+    width: 70%;
     height: 500px;
     background: #ebf0f6;
     border-radius: 10px;
     position: relative;
+    left: 80px;
   }
   .Contact-section .right-section form {
     position: absolute;
