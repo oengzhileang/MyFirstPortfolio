@@ -232,7 +232,7 @@ nav.sticky .menu li a {
   grid-column: span 3;
   display: flex;
   /* justify-content: center; */
-  /* align-items: center; */
+  align-items: center;
   /* margin-left: 110px; */
 }
 .about-section .button .btn {
